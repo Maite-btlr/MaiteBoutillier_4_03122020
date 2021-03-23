@@ -28,10 +28,10 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding-left: 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,7 +53,8 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .bg-center,
@@ -337,13 +338,26 @@ a:hover {
     background: transparent;
 }
 
-.btn-accueil{
-margin: 10px;
+.navbar-toggle {
+    margin: 10px 10px 0 0;
+    border: 0px;
 }
+
+.navbar-toggle:hover {
+    background: transparent!important;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
+}
+
 
 .nav-invert .navbar .nav {
     float: left;
 }
+
+
 
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
@@ -641,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #484848!important;
 }
 
 label{
@@ -656,13 +670,10 @@ label{
     margin-top: 8px;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 .hero-bloc-text {
     font-size: 38px;
-}
+    text-align: center;}
 
 .hero-bloc-text-sub {
     font-size: 36px;
@@ -684,7 +695,8 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
+    text-align: center;
 }
 
 .h1 {
@@ -699,11 +711,12 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    border-radius: 40px;
+    border: solid 2px #E47641;
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    padding: 15px;
 }
 
 h2 {
@@ -738,7 +751,7 @@ h4 {
 }
 
 .white {
-    color: black!important;
+    color: white!important;
 }
 
 .portfolio-thumb {
@@ -777,21 +790,23 @@ h4 {
 }
 
 .tc-white {
-    color: black!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
     background: #E47641;
-    color: black!important;
+    color: white!important;
+    margin-left: 15px;
+    margin-bottom: 35px;
 }
 
 .btn-atomic-tangerine:hover {
     background: #E47641!important;
-    color: black!important;
+    color: white!important;
 }
 
 .ltc-white {
-    color: black!important;
+    color:white!important;
 }
 
 .ltc-white:hover {
