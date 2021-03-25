@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color:black;
 }
 
 .d-bloc .a-btn:hover,
@@ -656,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #484848!important;
+    color: black!important;
 }
 
 label{
@@ -713,7 +713,7 @@ p {
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
-    border: solid 2px #E47641;
+    border: solid 2px #F3976C;
 }
 
 .social {
@@ -783,11 +783,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #F3976C;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #E47641;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -795,14 +795,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #E47641;
+    background: #F3976C;
     color:black!important;
     margin-left: 15px;
     margin-bottom: 35px;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #E47641!important;
+    background: #F3976C!important;
     color: white!important;
 }
 
@@ -819,12 +819,12 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #F3976C!important;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: black!important;
+    border-color: black!important;
 }
 
 .bg-dots-bg {
