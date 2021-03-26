@@ -196,6 +196,8 @@ a:hover {
 .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .d-bloc .panel button:hover,
@@ -662,12 +664,9 @@ a {
 label{
     display: table-row;
 }
-.form-group{
-    padding: 10px;
-}
+
 .form-control{
     padding-bottom: 20px;
-    width: 70%;
     margin-top: 8px;
 }
 
@@ -797,8 +796,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color:black!important;
-    margin-left: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 70px;
 }
 
 .btn-atomic-tangerine:hover {
