@@ -972,6 +972,8 @@ h4 {
     }
     .navbar-collapse {
         padding: 0;
+        float: left;
+        width: 120%;
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
